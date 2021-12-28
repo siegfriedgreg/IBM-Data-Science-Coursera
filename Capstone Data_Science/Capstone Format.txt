@@ -75,33 +75,33 @@ Questions to Answer?
         8) Predictive Analysis lab notebook
 
  REQUIRED IMAGES:    18-44
-        1) Flow Chart - Space X API Calls
-        2) Flow Chart - Space X Web Scraping
-        3) Flow Chart - Space X Data Wrangling
-        4) Scatter Plot - Flight Number vs Launch Site
-        5) Scatter Plot - Payload vs Launch Site
-        6) Bar Chart - Success Rate vs Orbit Type
-        7) Scatter Plot - Flight Number vs Orbit Type
-        8) Scatter Plot - Payload vs Orbit Type
-        9) Line Chart - Yearly Average Succes Rate
-        10) Query Result - Find Unique Launch Sites
-        11) Query Result - Find 5 Records of Launch Sites that begin with `CCA`
-        12) Query Result - Calculate the total payload carried by boosters, from nasa?
-        13) Query Result - Calculate average payload mass carried by booster, F9 v1.1
-        14) Query Result - Find the dates of the first successful ground pad landing.
-        15) Query Result - List the names of the boosters that have successfully landed on a drone ship with a payload mass between 4000 and 6000
-        16) Query Result - Calculate the total number of successful and failure missions
-        17) Query Result - List names of boosters that have carried the maximum payload
-        18) Query Result - List the failed landing outcomes in drone ship, their booster versions, and launch site names for year 2015
-        19) Query Result - Rank landing outcomes between 2010-6-4 and 2017-3-20 in descending order
-        20) Screen Shot - Folium Map: include all launch site location markers on global map.
-        21) Screen Shot - Folium Map: show color-labeled outcomes on the map
-        22) Screen Shot - Folium Map: show line and distance markers from launch site to close features
-        23) Screen Shot - Plotly: pie chart of launch success per site
-        24) Screen Shot - PLotly: pie chart of launch site with highest success ratio
-        25) Screen Shot - Plotly: scatter plot for all sites with different payload selected on slider.
-        26) Bar Chart - Model Accuracy for all classification models
-        27) Confusion Matrix - explain the best performing model
+       x 1) Flow Chart - Space X API Calls
+       x 2) Flow Chart - Space X Web Scraping
+       x 3) Flow Chart - Space X Data Wrangling
+       x 4) Scatter Plot - Flight Number vs Launch Site
+       x 5) Scatter Plot - Payload vs Launch Site
+       x 6) Bar Chart - Success Rate vs Orbit Type
+       x 7) Scatter Plot - Flight Number vs Orbit Type
+       x 8) Scatter Plot - Payload vs Orbit Type
+       x 9) Line Chart - Yearly Average Succes Rate
+       x 10) Query Result - Find Unique Launch Sites
+       x 11) Query Result - Find 5 Records of Launch Sites that begin with `CCA`
+       x 12) Query Result - Calculate the total payload carried by boosters, from nasa?
+       x 13) Query Result - Calculate average payload mass carried by booster, F9 v1.1
+       x 14) Query Result - Find the dates of the first successful ground pad landing.
+       x 15) Query Result - List the names of the boosters that have successfully landed on a drone ship with a payload mass between 4000 and 6000
+       x 16) Query Result - Calculate the total number of successful and failure missions
+       x 17) Query Result - List names of boosters that have carried the maximum payload
+       x 18) Query Result - List the failed landing outcomes in drone ship, their booster versions, and launch site names for year 2015
+       x 19) Query Result - Rank landing outcomes between 2010-6-4 and 2017-3-20 in descending order
+       x 20) Screen Shot - Folium Map: include all launch site location markers on global map.
+       x 21) Screen Shot - Folium Map: show color-labeled outcomes on the map
+       x 22) Screen Shot - Folium Map: show line and distance markers from launch site to close features
+       x 23) Screen Shot - Dash: pie chart of launch success per site
+       x 24) Screen Shot - Dash: pie chart of launch site with highest success ratio
+       x 25) Screen Shot - Dash: scatter plot for all sites with different payload selected on slider.
+       x 26) Bar Chart - Model Accuracy for all classification models
+       x 27) Confusion Matrix - explain the best performing model
         
         
         
