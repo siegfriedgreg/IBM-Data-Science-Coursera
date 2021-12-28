@@ -1,0 +1,107 @@
+
+
+
+Data Science Capstone reports:
+
+Cover Page:
+
+Executive Summary:
+        considered a standalone document
+        breifly expain details, no new info.
+
+Table Of Contents:
+
+Introduction:
+        Nature of analysis: To analyize SpaceX data for bidding insight
+        States the problem: Be able to predict flight outcomes to aid in bidding for contracts
+        States questions for analysis: What features affect flight success outcomes? Launch Site, Payload, Landing Site, Contractor
+
+Methodology:
+        A) Explains the data sources: 
+        B) Outlines the plan for collected data: 
+        Data was obtained from SpaceX using their API to retieve the json response.  
+        Data was obtained from webscraping Wikepedia data in a HTML response. 
+        API data was collected and normalized into a dataframe. Values that were 
+        ID numbers were queried for more useful information and stored in csv format.
+        Webscraping data was turned into beautiful soup, parsed into a Dataframe and 
+        stored as a csv file. Data was filtered based on Falcon 9 rockets, missing 
+        data was filled with mean values where appropriate. One hot Encoding was 
+        applied to category values like Outcomes, 1 for successful 0 for not.  
+
+Results:
+        organized and analyized
+        charts and graphs to support results and any extra findindings.
+
+Discussion:
+        engage audience to give an explanation for findings
+
+Conclusion:
+        Reiterate problems given in the introduction.
+        Give an overall summary of the findings
+        State outcome of analysis and any future steps.
+
+Appendix:
+        Info that didnt fit in the main body fo the report, but deemed important to include
+        Can include locations where data was collected, resources, acknowledgements, or refrences.
+             
+        
+Questions to Answer?
+
+    Have you told readers, at the outset, what they might gain by reading your paper?
+
+    Have you made the aim of your work clear?
+
+    Have you explained the significance of your contribution?
+
+    Have you set your work in the appropriate context by giving sufficient background (including a complete set of relevant references) to your work?
+
+    Have you addressed the question of practicality and usefulness?
+
+    Have you identified future developments that might result from your work?
+
+    Have you structured your paper in a clear and logical fashion?
+
+
+
+
+ GITHUB REQUIRED FILES: All Files Complete and Working! 8-15
+        1) data_collection SpaceX API calls notebook
+        2) data_collection web scrapping notebook
+        3) data_collection data wrangling notebook
+        4) exploratory_data_analysis EDA with data visualization
+        5) " EDA with SQL notebook
+        6) Folium map notebook
+        7) Plotly Dash Lab notebook
+        8) Predictive Analysis lab notebook
+
+ REQUIRED IMAGES:    18-44
+        1) Flow Chart - Space X API Calls
+        2) Flow Chart - Space X Web Scraping
+        3) Flow Chart - Space X Data Wrangling
+        4) Scatter Plot - Flight Number vs Launch Site
+        5) Scatter Plot - Payload vs Launch Site
+        6) Bar Chart - Success Rate vs Orbit Type
+        7) Scatter Plot - Flight Number vs Orbit Type
+        8) Scatter Plot - Payload vs Orbit Type
+        9) Line Chart - Yearly Average Succes Rate
+        10) Query Result - Find Unique Launch Sites
+        11) Query Result - Find 5 Records of Launch Sites that begin with `CCA`
+        12) Query Result - Calculate the total payload carried by boosters, from nasa?
+        13) Query Result - Calculate average payload mass carried by booster, F9 v1.1
+        14) Query Result - Find the dates of the first successful ground pad landing.
+        15) Query Result - List the names of the boosters that have successfully landed on a drone ship with a payload mass between 4000 and 6000
+        16) Query Result - Calculate the total number of successful and failure missions
+        17) Query Result - List names of boosters that have carried the maximum payload
+        18) Query Result - List the failed landing outcomes in drone ship, their booster versions, and launch site names for year 2015
+        19) Query Result - Rank landing outcomes between 2010-6-4 and 2017-3-20 in descending order
+        20) Screen Shot - Folium Map: include all launch site location markers on global map.
+        21) Screen Shot - Folium Map: show color-labeled outcomes on the map
+        22) Screen Shot - Folium Map: show line and distance markers from launch site to close features
+        23) Screen Shot - Plotly: pie chart of launch success per site
+        24) Screen Shot - PLotly: pie chart of launch site with highest success ratio
+        25) Screen Shot - Plotly: scatter plot for all sites with different payload selected on slider.
+        26) Bar Chart - Model Accuracy for all classification models
+        27) Confusion Matrix - explain the best performing model
+        
+        
+        
